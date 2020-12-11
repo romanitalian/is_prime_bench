@@ -25,6 +25,7 @@ function run($N)
         //     var_dump($i);
         // }
     }
+    echo $isPrime;
 }
 
 // php ./php/index.php

@@ -30,7 +30,7 @@ int main()
     int N = 10000000;
     clock_t start, end;
     start = clock();
-    for (int i ; i < N; i++) {
+    for (int i = 0; i < N; i++) {
         // printf("%d - %d\n", i, isPrime(i));
         isPrime(i);
     }
